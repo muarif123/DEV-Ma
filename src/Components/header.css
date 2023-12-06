@@ -1,0 +1,7 @@
+.hver{
+    transition: .3s;
+
+}
+.hver:hover{
+    color:gold
+}

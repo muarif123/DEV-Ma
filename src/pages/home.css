@@ -1,0 +1,55 @@
+.h{
+    height: 300px;
+    width: 198px;
+    border-radius: 10px;
+    position: relative;
+    transition: .1s linear all;
+    margin-top: 30px;
+    overflow: hidden;
+    border: 1px solid gray;
+
+    
+
+
+}
+.msk{
+    mask-image: linear-gradient(to top,black 35%,rgba(0,0,0,0.1)90%);
+
+}
+/* .msk2{
+    mask-image: linear-gradient(to ,black 45%,rgba(0,0,0,0.1)90%);
+
+} */
+.h img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.j{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 70px 20px;
+    opacity: 0;
+    color: whitesmoke;
+    transition: .3s linear all;
+    color:'rgb(255,190,189)'
+
+}
+.h:hover .j{
+    opacity: 1;
+    filter: brightness(200%);
+    z-index: 1234;
+}
+.h:hover{
+    transform: scale(1.1);
+    mask-image: linear-gradient(to top,blue 45%,rgba(0,0,0,0.1)90%);
+    /* mask-image: linear-gradient(to right,black 45%,rgba(0,0,0,0.1)90%); */
+
+
+    /* filter: brightness(80%); */
+    /* box-shadow: 3px 3px 3px white; */
+}
+.lm{
+    top:'35%'
+}
